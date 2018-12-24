@@ -1,0 +1,488 @@
+%==========================================================================%
+
+\documentclass[a4paper,11pt,dvipdfmx]{jsarticle}
+
+%==========================================================================%
+
+\usepackage{graphicx}
+%\usepackage{listings,jlisting}
+%\usepackage{color}
+%\usepackage{fancybox}
+%\usepackage{itembkbx}
+\usepackage{here}
+%\usepackage{ascmac}
+\usepackage{graphics}
+\usepackage{comment}
+\usepackage{amsmath}
+\usepackage{moreverb}
+    
+%==========================================================================%
+    
+  
+%==========================================================================%
+
+\title{名工大剣道部部員名簿}
+
+\author{CS-a 成瀬隆昌 (28114093)}
+
+\date{\today}
+
+\begin{document}
+    
+\maketitle
+    
+%==========================================================================%
+    \if 0
+      
+    \begin{figure}[!h]
+      \begin{center}
+        \includegraphics[scale=]{./}
+        \caption{} %タイトルをつける
+        \label{} %ラベルをつけ図の参照を可能にする
+      \end{center}
+    \end{figure}
+  
+    \ref{}
+  
+  
+    \begin{figure}[htbp]
+      \begin{center}
+        \includegraphics[scale=]{./}
+        \caption{} %タイトルをつける
+        \label{} %ラベルをつけ図の参照を可能にする
+      \end{center}
+    \end{figure}
+  
+  
+      \lstdefinestyle{customCpp}{
+        %プログラム言語(複数の言語に対応，C,C++も可)
+        language = C++,
+        %枠外に行った時の自動改行
+        breaklines = true,
+        %自動改行後のインデント量(デフォルトでは20[pt])	
+        breakindent = 10pt,
+        %標準の書体
+        basicstyle = \ttfamily\scriptsize,
+        %コメントの書体
+        commentstyle = {\itshape \color[cmyk]{1,0.4,1,0}},
+        %関数名等の色の設定
+        classoffset = 0,
+        %キーワード(int, ifなど)の書体
+        keywordstyle = {\bfseries \color[cmyk]{0,1,1,0}},
+        %表示する文字の書体
+        stringstyle = {\ttfamily \color[rgb]{0,0,1}},
+        %枠 "t"は上に線を記載, "T"は上に二重線を記載
+        %他オプション：leftline，topline，bottomline，lines，single，shadowbox
+        frame = TBrl,
+        %frameまでの間隔(行番号とプログラムの間)
+        framesep = 5pt,
+        %行番号の位置
+        numbers = left,
+        %行番号の間隔
+        stepnumber = 1,
+        %行番号の書体
+        numberstyle = \tiny,
+        %タブの大きさ
+        tabsize = 2,
+        %キャプションの場所("tb"ならば上下両方に記載)
+        captionpos = t
+      }
+  
+  
+      \lstinputlisting[caption = , escapechar=, style=customCpp]{./}
+  
+  
+      %場合分け
+      \[
+      fibo(n) = \begin{cases}
+        1 & (n==1,2) \\
+        fibo(n-1) + fibo(n-2) & (otherwise) 
+      \end{cases}
+    \]
+  
+    %verbatimでtabを可視化したいとき.
+    \begin{verbatimtab}[4]
+      
+    \end{verbatimtab}
+
+    %特殊文字の表示
+    # => \#
+    $ => \$
+    % => \%
+    & => \&
+    _ => \_
+    { => \{
+    } => \}
+    < => \verb|<|
+    > => \>
+    \ => \verb|\|
+    ^ => \verb|^|
+    | => \verb+|+
+    ~ => \verb|~|
+
+    \fi
+%==========================================================================%
+  
+\section{顧問}
+
+\begin{itemize}
+    \item 河邊 伸二(教授)
+    \begin{description}
+        \item[学科] 社会工学専攻建築デザイン分野
+        \item[e-mail] kawabe@nitech.ac.jp
+    \end{description}
+\end{itemize}
+
+\section{師範}
+
+\begin{itemize}
+    \item 酒井 武信
+    \begin{description}
+        \item[e-mail] 0pw54f0z3252m8x@ezweb.ne.jp
+        \item[段位] 七段 
+    \end{description}
+\end{itemize}
+
+\section{M2}
+\begin{itemize}
+    \item 倉野 州平
+    \begin{description}
+        \item[学籍番号]29413079
+        \item[学科] 電気機械工学専攻機械工学分野
+        \item[e-mail] 29413079@stn.nitech.ac.jp
+        \item[段位]三段
+        \item[出身高校]国府 
+    \end{description}
+\end{itemize}
+\begin{itemize}
+    \item 加藤 周良
+    \begin{description}
+        \item[学籍番号]29414034
+        \item[学科] 情報工学専攻ネットワーク分野
+        \item[e-mail]29414034@stn.nitech.ac.jp
+        \item[段位]四段
+        \item[出身高校]小牧南 
+    \end{description}
+\end{itemize}
+\begin{itemize}
+    \item 加藤 瑛樹
+    \begin{description}
+        \item[学籍番号]29414036
+        \item[学科] 情報工学専攻知能情報分野
+        \item[e-mail]29414036@stn.nitech.ac.jp
+        \item[段位]二段
+        \item[出身高校]岐山 
+    \end{description}
+\end{itemize}
+\begin{itemize}
+    \item 加藤 遼香
+    \begin{description}
+        \item[学籍番号]29414035
+        \item[学科] 情報工学専攻メディア情報分野
+        \item[e-mail]29414035@stn.nitech.ac.jp
+        \item[段位]二段
+        \item[出身高校]西春 
+    \end{description}
+\end{itemize}
+\section{M1}
+\begin{itemize}
+    \item 横井 和真
+    \begin{description}
+        \item[学籍番号]30411169
+        \item[学科] 生命・応用化学専攻生命・物質化学分野
+        \item[e-mail]30411169@stn.nitech.ac.jp
+        \item[段位]三段
+        \item[出身高校] 豊明
+    \end{description}
+\end{itemize}
+\begin{itemize}
+    \item 小島 大輝
+    \begin{description}
+        \item[学籍番号]30412028
+        \item[学科] 物理工学専攻材料機能分野
+        \item[e-mail]3012028@stn.nitech.ac.jp
+        \item[段位]二段
+        \item[出身高校]滝 
+    \end{description}
+\end{itemize}
+\begin{itemize}
+    \item 嶋本 太郎
+    \begin{description}
+        \item[学籍番号] 30411077
+        \item[学科] 生命・応用化学専攻生命・物質化学分野
+        \item[e-mail]30411077@stn.nitech.ac.jp
+        \item[段位]三段
+        \item[出身高校]和歌山向陽 
+    \end{description}
+\end{itemize}
+\newpage
+\begin{itemize}
+    \item 原 亜紗美
+    \begin{description}
+        \item[学籍番号]30411126
+        \item[学科] 生命・応用化学専攻ソフトマテリアル分野
+        \item[e-mail]30411126@stn.nitech.ac.jp
+        \item[段位]二段
+        \item[出身高校]三島北 
+    \end{description}
+\end{itemize}
+\begin{itemize}
+    \item 新海 知道
+    \begin{description}
+        \item[学籍番号]30414053
+        \item[学科] 情報工学専攻知能情報分野
+        \item[e-mail]30414053@stn.nitech.ac.jp
+        \item[段位]二段
+        \item[出身高校]半田
+    \end{description}
+\end{itemize}
+\begin{itemize}
+    \item (鄭山河)ＺＨＥＮＧ Ｓｈａｎｈｅ
+    \begin{description}
+        \item[学籍番号]29154020
+        \item[学科] 情報工学科、研究生
+        \item[e-mail]29154020@stn.nitech.ac.jp
+        \item[段位]なし
+        \item[出身校]中国工業大学
+    \end{description}
+\end{itemize}
+
+\section{B4}
+\begin{itemize}
+    \item 山田 一太
+    \begin{description}
+        \item[学籍番号]27111175
+        \item[学科] 生命・物質工学科生物生命系プログラム
+        \item[e-mail]27111175@stn.nitech.ac.jp
+        \item[段位]四段
+        \item[出身高校]向陽 
+    \end{description}
+\end{itemize}
+\begin{itemize}
+    \item 桑田 力真
+    \begin{description}
+        \item[学籍番号]27111054
+        \item[学科] 生命・物質工学科生体材料系プログラム
+        \item[e-mail]27111054@stn.nitech.ac.jp
+        \item[段位]三段
+        \item[出身高校]岐阜 
+    \end{description}
+\end{itemize}
+\newpage
+\begin{itemize}
+    \item 宇佐美 太朗
+    \begin{description}
+        \item[学籍番号]27111023
+        \item[学科] 生命・物質工学科生体材料系プログラム
+        \item[e-mail]27111023@stn.nitech.ac.jp
+        \item[段位]四段
+        \item[出身高校]岐阜北 
+    \end{description}
+\end{itemize}
+\begin{itemize}
+    \item 古川 黎
+    \begin{description}
+        \item[学籍番号]27113152
+        \item[学科] 機械工学科機械系プログラム
+        \item[e-mail]27113152@stn.nitech.ac.jp
+        \item[段位]三段
+        \item[出身高校]岡崎 
+    \end{description}
+\end{itemize}
+\begin{itemize}
+    \item 坂川 広大
+    \begin{description}
+        \item[学籍番号]27113074
+        \item[学科] 機械工学科機械系プログラム
+        \item[e-mail]27113074@stn.nitech.ac.jp
+        \item[段位]三段
+        \item[出身高校]大垣北 
+    \end{description}
+\end{itemize}
+\begin{itemize}
+    \item 山口 日向子
+    \begin{description}
+        \item[学籍番号]27111152
+        \item[学科] 生命・物質工学科生体材料系プログラム
+        \item[e-mail]27111152@stn.nitech.ac.jp
+        \item[段位]三段
+        \item[出身高校]瑞陵 
+    \end{description}
+\end{itemize}
+\begin{itemize}
+    \item 徳海 裕也
+    \begin{description}
+        \item[学籍番号]27111096
+        \item[学科] 生命・物質工学科物質化学系プログラム
+        \item[e-mail]27111096@stn.nitech.ac.jp
+        \item[段位]二段
+        \item[出身高校]金沢泉丘 
+    \end{description}
+\end{itemize}
+\begin{itemize}
+    \item 池田 文一郎
+    \begin{description}
+        \item[学籍番号]27113201
+        \item[学科] 機械工学科機械系プログラム
+        \item[e-mail]b.ikeda.878@stn.nitech.ac.jp
+        \item[段位]二段
+        \item[出身校]奈良高等専門学校 
+    \end{description}
+\end{itemize}
+\section{B3}
+\begin{itemize}
+    \item 清水 陽太
+    \begin{description}
+        \item[学籍番号]28114067
+        \item[学科] 情報工学科知能情報分野
+        \item[e-mail]28114067@stn.nitech.ac.jp
+        \item[段位]三段
+        \item[出身高校]豊丘 
+    \end{description}
+\end{itemize}
+\begin{itemize}
+    \item 成瀬 隆昌
+    \begin{description}
+        \item[学籍番号]28114093
+        \item[学科] 情報工学科ネットワーク分野
+        \item[e-mail]28114093@stn.nitech.ac.jp
+        \item[段位]二段
+        \item[出身高校]桜台 
+    \end{description}
+\end{itemize}
+\begin{itemize}
+    \item 黒柳 利之
+    \begin{description}
+        \item[学籍番号]28117014
+        \item[学科] 社会工学科経営システム分野
+        \item[e-mail]28117014@stn.nitech.ac.jp
+        \item[段位]四段
+        \item[出身高校]国府 
+    \end{description}
+\end{itemize}
+\section{B2}
+\begin{itemize}
+    \item 菅 虎哲
+    \begin{description}
+        \item[学籍番号]29116023
+        \item[学科] 社会工学科環境都市分野
+        \item[e-mail]k.suga.399@stn.nitech.ac.jp
+        \item[段位]三段
+        \item[出身高校]豊田南 
+    \end{description}
+\end{itemize}
+\newpage
+\begin{itemize}
+    \item 横手 良汰
+    \begin{description}
+        \item[学籍番号]29113193
+        \item[学科] 電気・機械工学科機械工学分野
+        \item[e-mail]r.yokote.662@stn.nitech.ac.jp
+        \item[段位]三段
+        \item[出身高校]春日井 
+    \end{description}
+\end{itemize}
+\begin{itemize}
+    \item 樽山 卓生
+    \begin{description}
+        \item[学籍番号]29118035
+        \item[学科] 材料・エネルギーコース 機械工学分野
+        \item[e-mail]t.taruyama.646@stn.nitech.ac.jp
+        \item[段位]三段
+        \item[出身高校]江南 
+    \end{description}
+\end{itemize}
+\begin{itemize}
+    \item 小倉 夏槻
+    \begin{description}
+        \item[学籍番号]29116013
+        \item[学科] 社会工学科環境都市分野
+        \item[e-mail]n.ogura.999@stn.nitech.ac.jp
+        \item[段位]三段
+        \item[出身高校]豊田西 
+    \end{description}
+\end{itemize}
+\begin{itemize}
+    \item 安藤 千尋
+    \begin{description}
+        \item[学籍番号]29111007
+        \item[学科] 生命・応用化学科ソフトマテリアル分野
+        \item[e-mail]c.ando.483@stn.nitech.ac.jp
+        \item[段位]四段
+        \item[出身高校]南山女子部 
+    \end{description}
+\end{itemize}
+\begin{itemize}
+    \item 辰巳 日登美
+    \begin{description}
+        \item[学籍番号]29116026
+        \item[学科] 社会工学科環境都市分野
+        \item[e-mail]h.tatsumi.998@stn.nitech.ac.jp
+        \item[段位]三段
+        \item[出身高校]岡崎 
+    \end{description}
+\end{itemize}
+\begin{itemize}
+    \item 水野 雅裕
+    \begin{description}
+        \item[学籍番号]29111172
+        \item[学科] 生命・応用化学科ソフトマテリアル分野
+        \item[e-mail]m.mizuno.402@stn.nitech.ac.jp
+        \item[段位]三段
+        \item[出身高校]暁 
+    \end{description}
+\end{itemize}
+\begin{itemize}
+    \item 山下 直幸
+    \begin{description}
+        \item[学籍番号]29112109
+        \item[学科] 物理工学科応用物理分野
+        \item[e-mail]n.yamashita.441@stn.nitech.ac.jp
+        \item[段位]三段
+        \item[出身高校]国府 
+    \end{description}
+\end{itemize}
+\section{B1}
+\begin{itemize}
+    \item 中塚 恭平
+    \begin{description}
+        \item[学籍番号]30114099
+        \item[学科] 情報工学科
+        \item[e-mail]k.nakatsuka.472@stn.nitech.ac.jp
+        \item[段位]三段
+        \item[出身高校]岡崎 
+    \end{description}
+\end{itemize}
+\begin{itemize}
+    \item 山田 真理乃
+    \begin{description}
+        \item[学籍番号]30112093
+        \item[学科] 物理工学科
+        \item[e-mail]m.yamada.446@stn.nitech.ac.jp
+        \item[段位]二段
+        \item[出身高校]旭野 
+    \end{description}
+\end{itemize}
+\begin{itemize}
+    \item (李盈月)ＬＩ ＹＩＮＧＹＵＥ
+    \begin{description}
+        \item[学籍番号]30116050
+        \item[学科] 社会工学科環境都市分野
+        \item[e-mail]y.li.782@stn.nitech.ac.jp
+        \item[段位]なし
+        \item[出身高校]東北育才外国語学校 
+    \end{description}
+\end{itemize}
+\begin{itemize}
+    \item 野村 大輝
+    \begin{description}
+        \item[学籍番号]30114112
+        \item[学科] 情報工学科
+        \item[e-mail]d.nomura.295@stn.nitech.ac.jp
+        \item[段位]三段
+        \item[出身高校]金沢泉丘 
+    \end{description}
+\end{itemize}
+%==========================================================================%
+    
+\end{document}
