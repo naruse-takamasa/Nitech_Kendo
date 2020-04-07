@@ -2,14 +2,7 @@ twitter
 e-mail : NIT_KENDO@iCloud.com
 password : nitkendo
 
-Ameba Ownd(ホームページの最高管理者アカウント)
-e-mail : c6h4c12takamasa@gmail.com
-password : 2011takamasa
-* ミスして個人用のメールアドレスを登録してしまっているので、あまりこのアカウントではログインしてほしくない.
-  ただ、ホームページの削除などをする場合は管理者アカウントでのログインが必要なので、そういった場合にのみ使ってください.
-
 存在しているが、現状使用されていないGoogleアカウント
 e-mail : meikoudai.kendo@gmail.com
 password : MEIKOUDAI777kendo
 * なにか剣道部の新しいホームページやSNSなどを始める場合は、このアカウントを使ったほうが良い.
-  前述のように、自分のメールアドレスなどで誤って登録すると引き継ぎの際悲しいことになるので気をつけて.
